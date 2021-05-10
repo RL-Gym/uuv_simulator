@@ -1,5 +1,7 @@
 # `uuv_simulator`: Unmanned Underwater Vehicle (UUV) simulation with Gazebo
 
+## NOTE: This is a disconnected fork of uuv_simulator made to work for deepleng simulation with ROS Noetic distribution.
+
 [![Build Status](https://travis-ci.org/uuvsimulator/uuv_simulator.svg?branch=dev%2Ftravis_integration)](https://travis-ci.org/uuvsimulator/uuv_simulator)
 [![GitHub issues](https://img.shields.io/github/issues/uuvsimulator/uuv_simulator.svg)](https://github.com/uuvsimulator/uuv_simulator/issues)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/uuvsimulator/uuv_simulator/blob/master/LICENSE)
