@@ -33,11 +33,11 @@
       parent_link="${parent_link}"
       topic="camera"
       mass="0.1"
-      update_rate="5"
-      hfov="1.3962634"
-      width="1360"
-      height="1024"
-      stddev="0.007"
+      update_rate="30"
+      hfov="1.5125"
+      width="768"
+      height="492"
+      stddev="0.02"
       scale="1.0">
       <inertia ixx="0.00001" ixy="0.0" ixz="0.0" iyy="0.00001" iyz="0.0" izz="0.00001" />
       <xacro:insert_block name="origin" />
@@ -50,12 +50,12 @@
       suffix="${suffix}"
       parent_link="${parent_link}"
       topic="camera"
-      mass="0.01"
-      update_rate="5"
-      hfov="1.3962634"
-      width="1360"
-      height="1024"
-      stddev="0.007"
+      mass="0.015"
+      update_rate="30"
+      hfov="1.8125"
+      width="768"
+      height="492"
+      stddev="0.02"
       scale="1.0">
       <inertia ixx="0.00001" ixy="0.0" ixz="0.0" iyy="0.00001" iyz="0.0" izz="0.00001" />
       <xacro:insert_block name="origin" />>
@@ -122,7 +122,7 @@
             <format>R8G8B8</format>
           </image>
           <clip>
-            <near>0.02</near>
+            <near>0.05</near>
             <far>3000</far>
           </clip>
           <noise>
