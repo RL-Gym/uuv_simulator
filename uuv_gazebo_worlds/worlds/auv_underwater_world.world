@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<sdf version="1.4">
+<sdf version="1.5">
   <world name="default">
     <gravity>0.0 0 -10.0</gravity>
     <physics name="default_physics" default="true" type="ode">
