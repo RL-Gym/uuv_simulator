@@ -10,7 +10,7 @@ setup_args = generate_distutils_setup(
               'uuv_waypoints',
               'uuv_trajectory_generator.path_generator'],
     package_dir={'': 'src'},
-    requires=['std_msgs', 'rospy']
+    requires=['std_msgs', 'rospy', 'python-scipy']
 )
 
 setup(**setup_args)

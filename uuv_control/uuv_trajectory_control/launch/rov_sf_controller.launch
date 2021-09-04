@@ -1,6 +1,6 @@
 <launch>
   <!-- Vehicle namespace -->
-  <arg name="uuv_name"/>
+  <arg name="uuv_name" default="rexrov"/>
   <!-- Name of the vehicle model -->
   <arg name="model_name" default="$(arg uuv_name)"/>
   <!-- Thruster saturation -->

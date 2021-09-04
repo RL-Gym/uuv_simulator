@@ -1,6 +1,6 @@
 <launch>
   <!-- Vehicle namespace -->
-  <arg name="uuv_name"/>
+  <arg name="uuv_name" default="rexrov"/>
   <!-- Flag set as true to use load controller the parameters from the file  -->
   <arg name="use_params_file" default="false"/>
   <!-- Flag to start the trajectory visual markers publisher -->
