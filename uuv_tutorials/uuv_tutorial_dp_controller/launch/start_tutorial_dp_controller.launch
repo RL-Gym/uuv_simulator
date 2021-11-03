@@ -6,7 +6,7 @@
     is created under a namespace, which is per default equal to the name of vehicle model, but
     can be assigned differently at startup
     -->
-    <arg name="uuv_name"/>
+    <arg name="uuv_name" default="rexrov"/>
     <!-- Name of the vehicle model: the name of the robot model -->
     <arg name="model_name" default="$(arg uuv_name)"/>
 
